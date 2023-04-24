@@ -1,24 +1,7 @@
-import { useState } from "react";
-
-function Contador(){
-	let [counter, setCounter] = useState(0)
-
-	function addNumber(){
-		setCounter(counter + 1)
-	}
-
-	return(
-		<div>
-			<div>{counter}</div>
-		    <button onClick={addNumber}>Adicionar</button>
-		</div>
-	)
-}
-
 function Home() {
 	return (
 		<div>
-			<Contador/>
+			Home
 		</div>
 	)
 }
