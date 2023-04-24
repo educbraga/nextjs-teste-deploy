@@ -1,9 +1,14 @@
+import Link from "next/link";
+
 function Home() {
-	return (
-		<div>
-			Novo texto da home
-		</div>
-	)
+  return (
+    <div>
+      <div>Home</div>
+      <Link href="/sobre">
+        Acessar página sobre
+      </Link>
+    </div >
+  )
 }
 
 export default Home;
