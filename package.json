@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-teste-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/educbraga/nextjs-teste-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/educbraga/nextjs-teste-deploy/issues"
+  },
+  "homepage": "https://github.com/educbraga/nextjs-teste-deploy#readme",
+  "dependencies": {
+    "next": "^13.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
